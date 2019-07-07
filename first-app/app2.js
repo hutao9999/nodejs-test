@@ -1,0 +1,10 @@
+const os = require('os');
+
+//logger = 1;
+
+var totalMemory = os.totalmem();
+var freeMemory = os.freemem();
+
+console.log('Total Memory: ' + totalMemory);
+console.log(`Total Memory: ${totalMemory} `);
+console.log(`Free Memory:  ${freeMemory} `);
